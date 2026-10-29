@@ -68,7 +68,7 @@ the publication profile below to collect current custom-Rules measurements.
 ## Methodology
 
 The compiler results above are individual scenario measurements from the
-[passing CI run on September 22, 2026](https://github.com/chio-labs/sqlbuild/actions/runs/35764207007),
+[passing CI run on September 22, 2026](https://github.com/sqlstack-io/sqlbuild/actions/runs/35764207007),
 using the compiler code released in **SQLBuild 0.113.3** and Python 3.12 on Linux. They are not
 multi-run medians.
 
@@ -86,7 +86,7 @@ executed against a warehouse.
 ## Reproduce the benchmarks
 
 Run the fresh-process compiler cache guards from the
-[SQLBuild repository](https://github.com/chio-labs/sqlbuild):
+[SQLBuild repository](https://github.com/sqlstack-io/sqlbuild):
 
 ```bash
 make test-e2e-cache-compile-performance SQLBUILD_BENCHMARK_MODELS=3000
@@ -112,4 +112,4 @@ uv run python -m scripts.benchmark_rules_ci \
 ```
 
 The benchmark generators, guard thresholds, and CI workflow are maintained in the public
-[SQLBuild repository](https://github.com/chio-labs/sqlbuild).
+[SQLBuild repository](https://github.com/sqlstack-io/sqlbuild).
