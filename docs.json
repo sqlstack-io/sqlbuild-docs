@@ -247,14 +247,14 @@
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/chio-labs/sqlbuild"
+        "url": "https://github.com/sqlstack-io/sqlbuild"
       }
     ]
   },
   "footer": {
     "socials": {
       "discord": "https://discord.gg/tYU4nXdsT",
-      "github": "https://github.com/chio-labs/sqlbuild"
+      "github": "https://github.com/sqlstack-io/sqlbuild"
     }
   }
 }
